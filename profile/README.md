@@ -1,1 +1,1 @@
-Organization profile to be completed
+Foo
