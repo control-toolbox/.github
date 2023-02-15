@@ -5,4 +5,4 @@ control-toolbox/.github is a ✨special ✨ repository that you can use to add a
 ## Issues
 
 * [All control-toolbox organization issues](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Acontrol-toolbox+archived%3Afalse+)
-* [Roadmap](https://github.com/control-toolbox/control-toolbox.github.io/issues/12)
+* [Roadmap / Discussion](https://github.com/orgs/control-toolbox/discussions/15)
