@@ -1,4 +1,4 @@
-# Welcome to ct: control-toolbox ecosystem!
+# Welcome to the control-toolbox ecosystem!
 
 ## Documentation
 
