@@ -4,15 +4,18 @@
 
 The control-toolbox ecosystem gathers `Julia` packages for mathematical control and applications. It is an outcome of a research initiative supported by the [Centre Inria of Université Côte d'Azur](https://www.inria.fr/en/inria-centre-universite-cote-azur) and a sequel to previous developments, notably [Bocop](https://www.bocop.org) and [Hampath](https://www.hampath.org). See also: [ct gallery](https://ct.gitlabpages.inria.fr/gallery). The root package is [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl) which aims to provide tools to solve optimal control problems by direct and indirect methods. 
 
-An optimal control problem in general form may be written:
+An optimal control problem can be described as minimising the cost functional
 ```math
-\begin{array}{ll}
-\text{minimize} & \displaystyle g(t_0, x(t_0), t_f, x(t_f)) + \int_{t_0}^{t_f} f^{0}(t, x(t), u(t)) ~\mathrm{d}t \\[0.5em]
-\text{subject~to} &  \\[0.5em]
-& \dot{x}(t) = f(t, x(t), u(t)),\quad t \in [0,t_f],  \\[1em]
-& \xi_l \le \xi(t, u(t)) \le \xi_u, \\[0.5em]
-& \psi_l \le \psi(t, x(t), u(t)) \le \psi_u,  \\[0.5em]
-& \phi_l \le \phi(t_0, x(t_0), t_f, x(t_f)) \le \phi_u.
+g(t_0, x(t_0), t_f, x(t_f)) + \int_{t_0}^{t_f} f^{0}(t, x(t), u(t))~\mathrm{d}t
+```
+where the state $x$ and the control $u$ are functions on $[0,t_f]$ subject to constraints such as
+```math
+\begin{array}{l}
+\dot{x}(t) = f(t, x(t), u(t)),\quad t \in [0,t_f],\\
+\xi_l \le \xi(t, u(t)) \le \xi_u,\\
+\psi_l \le \psi(t, x(t), u(t)) \le \psi_u,\\
+\eta_l \le \eta(t, x(t)) \le \eta_u,\\
+\phi_l \le \phi(t_0, x(t_0), t_f, x(t_f)) \le \phi_u.
 \end{array}
 ```
 
