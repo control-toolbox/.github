@@ -4,7 +4,6 @@
 
 The control-toolbox ecosystem regroups `Julia` packages. The root package is [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl) which aims to provide tools to solve optimal control problems by direct and indirect methods. The packages [PathFollowing.jl](https://github.com/control-toolbox/PathFollowing.jl) and [HamiltonianFlows.jl](https://github.com/control-toolbox/HamiltonianFlows.jl) are independent and provide respectively path following methods and flows from Hamiltonian functions and systems. 
 
-See the documentations:
 [![](https://img.shields.io/badge/doc-OptimalControl.jl-blue)](https://control-toolbox.github.io/OptimalControl.jl)
 [![](https://img.shields.io/badge/doc-PathFollowing.jl-blue)](https://control-toolbox.github.io/PathFollowing.jl)
 [![](https://img.shields.io/badge/doc-HamiltonianFlows.jl-blue)](https://control-toolbox.github.io/HamiltonianFlows.jl)
