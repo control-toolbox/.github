@@ -17,7 +17,7 @@ The [setup](https://github.com/orgs/control-toolbox/repositories?type=all) of th
 * [CTBase.jl](https://github.com/control-toolbox/CTBase.jl): fundamentals of the control-toolbox ecosystem
 * [CTDirect.jl](https://github.com/control-toolbox/CTDirect.jl): direct transcription of an optimal control problem and resolution
 * [CTDirectShooting.jl](https://github.com/control-toolbox/CTDirectShooting.jl): direct shooting transcription of an optimal control problem and resolution
-* [CTProblemLibrary.jl](https://github.com/control-toolbox/CTProblemLibrary.jl): library of optimal control problems from the control-toolbox ecosystem 
+* [CTProblemLibrary.jl](https://github.com/control-toolbox/CTProblemLibrary.jl): library of optimal control problems
 * [HamiltonianFlows.jl](https://github.com/control-toolbox/HamiltonianFlows.jl): Hamiltonian flows
-* [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl): main root package.
+* [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl): main package
 * [PathFollowing.jl](https://github.com/control-toolbox/PathFollowing.jl): path following methods
