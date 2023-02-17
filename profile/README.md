@@ -1,4 +1,4 @@
-# Welcome to control-toolbox ecosystem!
+# Welcome to ct: control-toolbox ecosystem!
 
 The control-toolbox ecosystem regroups `Julia` packages. The root package is [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl) which aims to provide tools to solve optimal control problems by direct and indirect methods. The packages [PathFollowing.jl](https://github.com/control-toolbox/PathFollowing.jl) and [HamiltonianFlows.jl](https://github.com/control-toolbox/HamiltonianFlows.jl) are independent and provide respectively path following methods and flows from Hamiltonian functions and systems. See the documentations:
 
@@ -9,8 +9,8 @@ The control-toolbox ecosystem regroups `Julia` packages. The root package is [Op
 We discuss about the control-toolbox ecosystem here:
 
 * [![](https://img.shields.io/github/issues-search?color=green&label=open%20issues&query=is%3Aopen%20is%3Aissue%20user%3Acontrol-toolbox%20archived%3Afalse)](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Acontrol-toolbox+archived%3Afalse+)
-* [![](https://img.shields.io/badge/discussions-control--toolbox-green)](https://github.com/orgs/control-toolbox/discussions)
-* [![](https://img.shields.io/badge/wiki-control--toolbox-green)](https://github.com/control-toolbox/control-toolbox.github.io/wiki)
+* [![](https://img.shields.io/badge/discussions-ct-green)](https://github.com/orgs/control-toolbox/discussions)
+* [![](https://img.shields.io/badge/wiki-ct-green)](https://github.com/control-toolbox/control-toolbox.github.io/wiki)
 
 The [setup](https://github.com/orgs/control-toolbox/repositories?type=all) of the control-toolbox ecosystem is the following:
 
