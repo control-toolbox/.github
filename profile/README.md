@@ -13,7 +13,7 @@ We discuss about the control-toolbox ecosystem here:
 
 The [setup](https://github.com/orgs/control-toolbox/repositories?type=all) of the control-toolbox ecosystem is the following:
 
-* [ct-registry](https://github.com/control-toolbox/ct-registryb): the control-toolbox registry for the moment since the packages are not available in the [official registry](https://github.com/JuliaRegistries/General) of general packages for the moement.
+* [ct-registry](https://github.com/control-toolbox/ct-registryb): the control-toolbox registry since the packages are not available in the [official registry](https://github.com/JuliaRegistries/General) of general packages for the moement.
 * [CTBase.jl](https://github.com/control-toolbox/CTBase.jl): fundamentals of the control-toolbox ecosystem
 * [CTDirect.jl](https://github.com/control-toolbox/CTDirect.jl): direct transcription of an optimal control problem and resolution
 * [CTDirectShooting.jl](https://github.com/control-toolbox/CTDirectShooting.jl): direct shooting transcription of an optimal control problem and resolution
