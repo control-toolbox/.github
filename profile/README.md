@@ -8,7 +8,7 @@ The control-toolbox ecosystem regroups `Julia` packages. The root package is [Op
 
 We discuss about the control-toolbox ecosystem here:
 
-* [![](https://img.shields.io/badge/open%20issues-control--toolbox-green)](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Acontrol-toolbox+archived%3Afalse+)
+* [![](https://img.shields.io/github/issues-search?color=brightgreen&label=open%20issues&logo=Git&logoColor=white&query=is%3Aopen%20is%3Aissue%20user%3Acontrol-toolbox%20archived%3Afalse)](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Acontrol-toolbox+archived%3Afalse+)
 * [![](https://img.shields.io/badge/discussions-control--toolbox-green)](https://github.com/orgs/control-toolbox/discussions)
 * [![](https://img.shields.io/badge/wiki-control--toolbox-green)](https://github.com/control-toolbox/control-toolbox.github.io/wiki)
 
@@ -22,3 +22,6 @@ The [setup](https://github.com/orgs/control-toolbox/repositories?type=all) of th
 * [HamiltonianFlows.jl](https://github.com/control-toolbox/HamiltonianFlows.jl): Hamiltonian flows
 * [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl): main package
 * [PathFollowing.jl](https://github.com/control-toolbox/PathFollowing.jl): path following methods
+
+
+![GitHub Org's stars](https://img.shields.io/github/stars/control-toolbox?label=Stars%20-%20control-toolobx&style=social)
