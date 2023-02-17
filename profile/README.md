@@ -2,17 +2,17 @@
 
 ## Documentation
 
-The control-toolbox ecosystem regroups `Julia` packages. The root package is [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl) which aims to provide tools to solve optimal control problems by direct and indirect methods. 
+The control-toolbox ecosystem gathers `Julia` packages for mathematical control and applications. It is an outcome of a research initiative supported by the [Centre Inria of Université Côte d'Azur](https://www.inria.fr/en/inria-centre-universite-cote-azur) and a sequel to previous developments, notably [Bocop](https://www.bocop.org) and [Hampath](https://www.hampath.org). See also: [ct gallery](https://ct.gitlabpages.inria.fr/gallery). The root package is [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl) which aims to provide tools to solve optimal control problems by direct and indirect methods. 
 
 An optimal control problem in general form may be written:
 ```math
 \begin{array}{ll}
-\mathrm{minimize} & \displaystyle J(t_0, t_f, x, u, \lambda) = g(t_0, x(t_0), t_f, x(t_f), \lambda) + \int_{t_0}^{t_f} f^{0}(t, x(t), u(t), \lambda) ~\mathrm{d}t \\[0.5em]
-\mathrm{subject~to} &  \\[0.5em]
-& \dot{x}(t) = f(t, x(t), u(t), \lambda)  \\[1em]
-& \xi_l \le \xi(t, u(t), \lambda) \le \xi_u  \\[0.5em]
-& \psi_l \le \psi(t, x(t), u(t), \lambda) \le \psi_u  \\[0.5em]
-& \phi_l \le \phi(t_0, x(t_0), t_f, x(t_f), \lambda) \le \phi_u
+\text{minimize} & \displaystyle g(t_0, x(t_0), t_f, x(t_f)) + \int_{t_0}^{t_f} f^{0}(t, x(t), u(t)) ~\mathrm{d}t \\[0.5em]
+\text{subject~to} &  \\[0.5em]
+& \dot{x}(t) = f(t, x(t), u(t)),\quad t \in [0,t_f],  \\[1em]
+& \xi_l \le \xi(t, u(t)) \le \xi_u, \\[0.5em]
+& \psi_l \le \psi(t, x(t), u(t)) \le \psi_u,  \\[0.5em]
+& \phi_l \le \phi(t_0, x(t_0), t_f, x(t_f)) \le \phi_u.
 \end{array}
 ```
 
