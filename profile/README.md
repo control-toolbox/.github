@@ -4,7 +4,7 @@
 
 The control-toolbox ecosystem regroups `Julia` packages. The root package is [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl) which aims to provide tools to solve optimal control problems by direct and indirect methods. 
 
-An optimal control problem in is general form may be written:
+An optimal control problem in general form may be written:
 ```math
 \begin{array}{ll}
 \mathrm{minimize} & \displaystyle J(t_0, t_f, x, u, \lambda) = g(t_0, x(t_0), t_f, x(t_f), \lambda) + \int_{t_0}^{t_f} f^{0}(t, x(t), u(t), \lambda) ~\mathrm{d}t \\[0.5em]
