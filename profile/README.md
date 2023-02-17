@@ -27,7 +27,7 @@ The packages [PathFollowing.jl](https://github.com/control-toolbox/PathFollowing
 
 ## Installation
 
-To install a package from the control-toolbox ecosystem, you must add its registry into you `Julia` configuration.
+To install a package from the control-toolbox ecosystem, you must add its registry into your `Julia` configuration.
 ```shell
    _       _ _(_)_     |  Documentation: https://docs.julialang.org
   (_)     | (_) (_)    |
