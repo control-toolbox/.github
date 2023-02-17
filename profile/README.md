@@ -22,6 +22,3 @@ The [setup](https://github.com/orgs/control-toolbox/repositories?type=all) of th
 * [HamiltonianFlows.jl](https://github.com/control-toolbox/HamiltonianFlows.jl): Hamiltonian flows
 * [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl): main package
 * [PathFollowing.jl](https://github.com/control-toolbox/PathFollowing.jl): path following methods
-
-
-![GitHub Org's stars](https://img.shields.io/github/stars/control-toolbox?label=Stars%20-%20control-toolobx&style=social)
