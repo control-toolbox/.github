@@ -9,7 +9,7 @@ The control-toolbox ecosystem regroups `Julia` packages. The root package is [Op
 We discuss about the control-toolbox ecosystem here:
 
 * [![](https://img.shields.io/badge/issues-control--toolbox-green)](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Acontrol-toolbox+archived%3Afalse+) access to the complete list of opened issues.
-* [![](https://img.shields.io/badge/discussion-control--toolbox-green)](https://github.com/orgs/control-toolbox/discussions) all discussions including roadmaps.
+* [![](https://img.shields.io/badge/discussions-control--toolbox-green)](https://github.com/orgs/control-toolbox/discussions) all discussions including roadmaps.
 
 The [setup](https://github.com/orgs/control-toolbox/repositories?type=all) of the control-toolbox ecosystem is the following:
 
