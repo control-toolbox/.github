@@ -64,9 +64,9 @@ We discuss about the control-toolbox ecosystem here:
 * [![GitHub Discussions](https://img.shields.io/github/discussions/control-toolbox/control-toolbox.github.io?color=green)](https://github.com/orgs/control-toolbox/discussions)
 * [![](https://img.shields.io/badge/wiki-ct-green)](https://github.com/control-toolbox/control-toolbox.github.io/wiki)
 
-## Setup
+## Main repositories
 
-The [setup](https://github.com/orgs/control-toolbox/repositories?type=all) of the control-toolbox ecosystem is the following:
+The [main repositories](https://github.com/orgs/control-toolbox/repositories?type=all) of the control-toolbox ecosystem are:
 
 * [ct-registry](https://github.com/control-toolbox/ct-registryb): the control-toolbox registry since the packages are not yet available in the [official registry](https://github.com/JuliaRegistries/General).
 * [CTBase.jl](https://github.com/control-toolbox/CTBase.jl): fundamentals of the control-toolbox ecosystem
