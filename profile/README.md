@@ -8,15 +8,21 @@ An optimal control problem can be described as minimising the cost functional
 g(t_0, x(t_0), t_f, x(t_f)) + \int_{t_0}^{t_f} f^{0}(t, x(t), u(t))~\mathrm{d}t
 }
 ```
-where the state $x$ and the control $u$ are functions on $[t_0,t_f]$ subject to constraints such as
+where the state $\large{x}$ and the control $\large{u}$ are functions on $\large{[t_0,t_f]}$ subject, for $\large{t \in [t_0, t_f]}$,
+to the differential constraint
 ```math
 {\large
-\begin{array}{l}
-\dot{x}(t) = f(t, x(t), u(t)),\quad t \in [0,t_f],\\
-\xi_l \le \xi(t, u(t)) \le \xi_u,\\
-\psi_l \le \psi(t, x(t), u(t)) \le \psi_u,\\
-\eta_l \le \eta(t, x(t)) \le \eta_u,\\
-\phi_l \le \phi(t_0, x(t_0), t_f, x(t_f)) \le \phi_u.
+   \dot{x}(t) = f(t, x(t), u(t))
+}
+```
+and other constraints such as
+```math
+{\large
+\begin{array}{llcll}
+\xi_l  &\le& \xi(t, u(t))        &\le& \xi_u, \\
+\psi_l &\le& \psi(t, x(t), u(t)) &\le& \psi_u, \\
+\eta_l &\le& \eta(t, x(t))       &\le& \eta_u, \\
+\phi_l &\le& \phi(t_0, x(t_0), t_f, x(t_f)) &\le& \phi_u.
 \end{array}
 }
 ```
