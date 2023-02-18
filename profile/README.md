@@ -4,10 +4,13 @@ The control-toolbox ecosystem gathers `Julia` packages for mathematical control 
 
 An optimal control problem can be described as minimising the cost functional
 ```math
+{\large
 g(t_0, x(t_0), t_f, x(t_f)) + \int_{t_0}^{t_f} f^{0}(t, x(t), u(t))~\mathrm{d}t
+}
 ```
 where the state $x$ and the control $u$ are functions on $[t_0,t_f]$ subject to constraints such as
 ```math
+{\large
 \begin{array}{l}
 \dot{x}(t) = f(t, x(t), u(t)),\quad t \in [0,t_f],\\
 \xi_l \le \xi(t, u(t)) \le \xi_u,\\
@@ -15,6 +18,7 @@ where the state $x$ and the control $u$ are functions on $[t_0,t_f]$ subject to 
 \eta_l \le \eta(t, x(t)) \le \eta_u,\\
 \phi_l \le \phi(t_0, x(t_0), t_f, x(t_f)) \le \phi_u.
 \end{array}
+}
 ```
 
 The packages [PathFollowing.jl](https://github.com/control-toolbox/PathFollowing.jl) and [HamiltonianFlows.jl](https://github.com/control-toolbox/HamiltonianFlows.jl) are independent and provide respectively path following methods and flows from Hamiltonian functions and systems. 
