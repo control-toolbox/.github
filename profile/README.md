@@ -8,7 +8,7 @@ An optimal control problem can be described as minimising the cost functional
 g(t_0, x(t_0), t_f, x(t_f)) + \int_{t_0}^{t_f} f^{0}(t, x(t), u(t))~\mathrm{d}t
 }
 ```
-where the state $\large{x}$ and the control $\large{u}$ are functions on $\large{[t_0,t_f]}$ subject, for $\large{t \in [t_0, t_f]}$,
+where the state $\large{x}$ and the control $\large{u}$ are functions subject, for $\large{t \in [t_0, t_f]}$,
 to the differential constraint
 ```math
 {\large
