@@ -56,7 +56,7 @@ Then, you can install any package as usual. For instance:
 pkg> add OptimalControl
 ```
 
-## Discussion
+## Discussions
 
 We discuss about the control-toolbox ecosystem here:
 
