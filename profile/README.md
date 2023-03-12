@@ -2,6 +2,8 @@
 
 The control-toolbox ecosystem gathers `Julia` packages for mathematical control and applications. It is an outcome of a research initiative supported by the [Centre Inria of Université Côte d'Azur](https://www.inria.fr/en/inria-centre-universite-cote-azur) and a sequel to previous developments, notably [Bocop](https://www.bocop.org) and [Hampath](https://www.hampath.org). See also: [ct gallery](https://ct.gitlabpages.inria.fr/gallery). The root package is [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl) which aims to provide tools to solve optimal control problems by direct and indirect methods. 
 
+[![](https://img.shields.io/badge/doc-OptimalControl.jl-blue)](https://control-toolbox.github.io/OptimalControl.jl)
+
 An optimal control problem can be described as minimising the cost functional
 ```math
 {\large
@@ -26,12 +28,6 @@ and other constraints such as
 \end{array}
 }
 ```
-
-The packages [PathFollowing.jl](https://github.com/control-toolbox/PathFollowing.jl) and [HamiltonianFlows.jl](https://github.com/control-toolbox/HamiltonianFlows.jl) are independent and provide respectively path following methods and flows from Hamiltonian functions and systems. 
-
-* [![](https://img.shields.io/badge/doc-OptimalControl.jl-blue)](https://control-toolbox.github.io/OptimalControl.jl)
-* [![](https://img.shields.io/badge/doc-PathFollowing.jl-blue)](https://control-toolbox.github.io/PathFollowing.jl)
-* [![](https://img.shields.io/badge/doc-HamiltonianFlows.jl-blue)](https://control-toolbox.github.io/HamiltonianFlows.jl)
 
 ## Installation
 
@@ -72,7 +68,7 @@ The [main repositories](https://github.com/orgs/control-toolbox/repositories?typ
 * [CTBase.jl](https://github.com/control-toolbox/CTBase.jl): fundamentals of the control-toolbox ecosystem
 * [CTDirect.jl](https://github.com/control-toolbox/CTDirect.jl): direct transcription of an optimal control problem and resolution
 * [CTDirectShooting.jl](https://github.com/control-toolbox/CTDirectShooting.jl): direct shooting transcription of an optimal control problem and resolution
+* [CTFlows.jl](https://github.com/control-toolbox/CTFlows.jl): classical flow, Hamiltonian flow, flow from optimal control problem
 * [CTProblems.jl](https://github.com/control-toolbox/CTProblems.jl): library of optimal control problems
-* [HamiltonianFlows.jl](https://github.com/control-toolbox/HamiltonianFlows.jl): Hamiltonian flows
 * [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl): main package
 * [PathFollowing.jl](https://github.com/control-toolbox/PathFollowing.jl): path following methods
