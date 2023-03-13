@@ -43,8 +43,6 @@ To install a package from the control-toolbox ecosystem, you must add its regist
 
 julia> ]
 pkg> registry add https://github.com/control-toolbox/ct-registry.git
-     Cloning registry from "https://github.com/control-toolbox/ct-registry.git"
-       Added registry `ct-registry` to `~/.julia/registries/ct-registry`
 ```
 
 Then, you can install any package as usual. For instance:
