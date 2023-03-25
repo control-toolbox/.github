@@ -65,14 +65,6 @@ Finally, you can install any package as usual. For instance:
 pkg> add OptimalControl
 ```
 
-## Discussions
-
-We discuss about the control-toolbox ecosystem here:
-
-* [![Github Issues](https://img.shields.io/github/issues-search?color=green&label=open%20issues&query=is%3Aopen%20is%3Aissue%20user%3Acontrol-toolbox%20archived%3Afalse)](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Acontrol-toolbox+archived%3Afalse+)
-* [![GitHub Discussions](https://img.shields.io/github/discussions/control-toolbox/control-toolbox.github.io?color=green)](https://github.com/orgs/control-toolbox/discussions)
-* [![](https://img.shields.io/badge/wiki-ct-green)](https://github.com/control-toolbox/control-toolbox.github.io/wiki)
-
 ## Main repositories
 
 The [main repositories](https://github.com/orgs/control-toolbox/repositories?type=all) of the control-toolbox ecosystem are:
@@ -86,3 +78,11 @@ The [main repositories](https://github.com/orgs/control-toolbox/repositories?typ
 * [CTProblems.jl](https://github.com/control-toolbox/CTProblems.jl): library of optimal control problems
 * [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl): main package
 * [PathFollowing.jl](https://github.com/control-toolbox/PathFollowing.jl): path following methods
+
+## Discussions
+
+We discuss about the control-toolbox ecosystem here:
+
+* [![Github Issues](https://img.shields.io/github/issues-search?color=green&label=open%20issues&query=is%3Aopen%20is%3Aissue%20user%3Acontrol-toolbox%20archived%3Afalse)](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Acontrol-toolbox+archived%3Afalse+)
+* [![GitHub Discussions](https://img.shields.io/github/discussions/control-toolbox/control-toolbox.github.io?color=green)](https://github.com/orgs/control-toolbox/discussions)
+* [![](https://img.shields.io/badge/wiki-ct-green)](https://github.com/control-toolbox/control-toolbox.github.io/wiki)
