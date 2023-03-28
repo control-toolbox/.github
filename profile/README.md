@@ -63,6 +63,7 @@ Finally, you can install any package as usual. For instance:
 
 ```shell
 pkg> add OptimalControl
+pkg> add CTProblems
 ```
 
 ## Main repositories
