@@ -1,4 +1,4 @@
-# Welcome to the control-toolbox ecosystem!
+# Welcome to control-toolbox!
 
 The control-toolbox ecosystem gathers `Julia` packages for mathematical control and applications. The root package is [`OptimalControl.jl`](https://github.com/control-toolbox/OptimalControl.jl) which aims to provide tools to solve optimal control problems by direct and indirect methods.
 
