@@ -12,14 +12,6 @@ Start `Julia`:
 
 ```shell
 >> julia
-
-   _       _ _(_)_     |  Documentation: https://docs.julialang.org
-  (_)     | (_) (_)    |
-   _ _   _| |_  __ _   |  Type "?" for help, "]?" for Pkg help.
-  | | | | | | |/ _` |  |
-  | | |_| | | | (_| |  |  Version 1.8.2 (2022-09-29)
- _/ |\__'_|_|_|\__'_|  |  Official https://julialang.org/ release
-|__/                   |
 ```
 
 Then, add `ct-registry` to the list of known registries:
