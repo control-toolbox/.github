@@ -6,24 +6,10 @@ The control-toolbox ecosystem gathers `Julia` packages for mathematical control 
 
 ## Installation
 
-To install a package from the control-toolbox ecosystem, you must add its registry into your `Julia` configuration.
-
-Start `Julia`:
+To install a package from the control-toolbox ecosystem, you must add the `ct-registry` into your `Julia` configuration, and then you can install any package as usual.
 
 ```shell
->> julia
-```
-
-Then, add `ct-registry` to the list of known registries:
-
-```shell
-julia> ]
 pkg> registry add https://github.com/control-toolbox/ct-registry.git
-```
-
-Finally, you can install any package as usual. For instance:
-
-```shell
 pkg> add OptimalControl
 ```
 
