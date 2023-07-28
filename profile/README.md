@@ -29,7 +29,7 @@ pkg> add OptimalControl
 
 ## Getting started
 
-To solve you first optimal control problem using `OptimalControl.jl` package, please visit our [basic example tutorial](https://control-toolbox.org/docs/optimalcontrol/stable/tutorial-basic-example.html) or just copy-paste the following piece of code!
+To solve your first optimal control problem using `OptimalControl.jl` package, please visit our [basic example tutorial](https://control-toolbox.org/docs/optimalcontrol/stable/tutorial-basic-example.html) or just copy-paste the following piece of code!
 
 ```julia
 using OptimalControl
@@ -48,6 +48,7 @@ plot(sol, size=(600, 450))
 
 You should obtain this:
 
+<img width="600" alt="sol-basic-example" src="https://github.com/control-toolbox/.github/assets/66357348/95b86ad4-abf5-4e70-8fd4-ace324daf983">
 
 
 ## Main repositories
