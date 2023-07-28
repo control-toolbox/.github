@@ -19,6 +19,7 @@ To solve your first optimal control problem using `OptimalControl.jl` package, p
 
 ```julia
 using OptimalControl
+
 @def ocp begin
     t ∈ [ 0, 1 ], time
     x ∈ R², state
@@ -28,6 +29,7 @@ using OptimalControl
     ẋ(t) == [x₂(t), u(t)]
     ∫( 0.5u(t)^2 ) → min
 end
+
 sol = solve(ocp)
 plot(sol, size=(600, 450))
 ```
