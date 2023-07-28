@@ -25,8 +25,30 @@ Finally, you can install any package as usual. For instance:
 
 ```shell
 pkg> add OptimalControl
-pkg> add CTProblems
 ```
+
+## Getting started
+
+To solve you first optimal control problem using `OptimalControl.jl` package, please visit our [basic example tutorial](https://control-toolbox.org/docs/optimalcontrol/stable/tutorial-basic-example.html) or just copy-paste the following piece of code!
+
+```julia
+using OptimalControl
+@def ocp begin
+    t ∈ [ 0, 1 ], time
+    x ∈ R², state
+    u ∈ R, control
+    x(0) == [-1, 0]
+    x(1) == [0, 0]
+    ẋ(t) == [x₁, u(t)]
+    ∫( 0.5u(t)^2 ) → min
+end
+sol = solve(ocp)
+plot(sol, size=(600, 450))
+```
+
+You should obtain this:
+
+
 
 ## Main repositories
 
