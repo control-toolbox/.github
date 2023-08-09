@@ -13,32 +13,6 @@ pkg> registry add https://github.com/control-toolbox/ct-registry.git
 pkg> add OptimalControl
 ```
 
-## Getting started
-
-To solve your first optimal control problem using `OptimalControl.jl` package, please visit our [basic example tutorial](https://control-toolbox.org/docs/optimalcontrol/stable/tutorial-basic-example.html) or just copy-paste the following piece of code!
-
-```julia
-using OptimalControl
-
-@def ocp begin
-    t ∈ [ 0, 1 ], time
-    x ∈ R², state
-    u ∈ R, control
-    x(0) == [ -1, 0 ]
-    x(1) == [ 0, 0 ]
-    ẋ(t) == [ x₂(t), u(t) ]
-    ∫( 0.5u(t)^2 ) → min
-end
-
-sol = solve(ocp)
-plot(sol, size=(600, 450))
-```
-
-You should obtain this:
-
-<img width="600" alt="sol-basic-example" src="https://github.com/control-toolbox/.github/assets/66357348/95b86ad4-abf5-4e70-8fd4-ace324daf983">
-
-
 ## Main repositories
 
 The [main repositories](https://github.com/orgs/control-toolbox/repositories?type=all) of the control-toolbox ecosystem are:
