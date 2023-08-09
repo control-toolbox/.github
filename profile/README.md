@@ -25,6 +25,18 @@ The [main repositories](https://github.com/orgs/control-toolbox/repositories?typ
 * [`CTProblems.jl`](https://github.com/control-toolbox/CTProblems.jl): library of optimal control problems
 * [`OptimalControl.jl`](https://github.com/control-toolbox/OptimalControl.jl): main package
 
+```mermaid
+stateDiagram-v2
+          OptimalControl --> CTBase
+          OptimalControl --> CTDirect
+          OptimalControl --> CTFlows
+          OptimalControl --> CTProblems
+          CTProblems --> CTFlows
+          CTProblems --> CTBase
+          CTFlows --> CTBase
+          CTDirect --> CTBase
+```
+
 ## Extras
 
 * [`bocop`](https://github.com/control-toolbox/bocop): Bocop3, a direct solver for optimal control problem developed in `C++`
