@@ -37,9 +37,10 @@ stateDiagram-v2
           CTDirect --> CTBase
 ```
 
-## Extras
+## Extras and applications
 
 * [`bocop`](https://github.com/control-toolbox/bocop): Bocop3, a direct solver for optimal control problem developed in `C++`
+* [Control loss examples](https://github.com/control-toolbox/control-loss)
 
 ## Discussions
 
