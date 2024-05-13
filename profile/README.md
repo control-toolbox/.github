@@ -50,4 +50,4 @@ We discuss about the control-toolbox ecosystem here:
 * [![](https://img.shields.io/badge/wiki-ct-green)](https://github.com/control-toolbox/control-toolbox.github.io/wiki)
 
 ## Misc
-![ct](https://github.com/control-toolbox/control-toolbox.github.io/blob/main/assets/img/ct-logo.jpg) calligraphy by [Alain Hurtig](https://www.alain.les-hurtig.org)
+<img src="https://github.com/control-toolbox/control-toolbox.github.io/blob/main/assets/img/ct-logo.jpg" alt="ct logo" width=50> calligraphy by [Alain Hurtig](https://www.alain.les-hurtig.org)
