@@ -48,3 +48,6 @@ We discuss about the control-toolbox ecosystem here:
 * [![Github Issues](https://img.shields.io/github/issues-search?color=green&label=open%20issues&query=is%3Aopen%20is%3Aissue%20user%3Acontrol-toolbox%20archived%3Afalse)](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Acontrol-toolbox+archived%3Afalse+)
 * [![GitHub Discussions](https://img.shields.io/github/discussions/control-toolbox/control-toolbox.github.io?color=green)](https://github.com/orgs/control-toolbox/discussions)
 * [![](https://img.shields.io/badge/wiki-ct-green)](https://github.com/control-toolbox/control-toolbox.github.io/wiki)
+
+## Misc
+![xxxx]([xxxx](https://github.com/control-toolbox/control-toolbox.github.io/raw/main/assets/img/ct-logo.svg)) calligraphy by [Alain Hurtig](https://www.alain.les-hurtig.org)
