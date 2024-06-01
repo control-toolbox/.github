@@ -12,6 +12,19 @@ To install a package from the control-toolbox ecosystem, you must add the `ct-re
 pkg> registry add https://github.com/control-toolbox/ct-registry.git
 pkg> add OptimalControl
 ```
+Note: sometimes the above command can fail due to the default Julia registry ('General') not being installed for some reason.
+You can check that both registries are installed with
+```
+pkg> registry st
+Registry Status 
+ [cbe350a3] ct-registry (https://github.com/control-toolbox/ct-registry)
+ [23338594] General (https://github.com/JuliaRegistries/General.git)
+```
+If the General registry is missing, simply add it
+```
+pkg> registry add General
+```
+then retry the add command for the OptimalControl package.
 
 ## Main repositories
 
