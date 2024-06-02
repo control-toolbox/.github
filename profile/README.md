@@ -14,14 +14,14 @@ pkg> add OptimalControl
 ```
 Note: sometimes the above command can fail due to the default Julia registry ('General') not being installed for some reason.
 You can check that both registries are installed with
-```
+```shell
 pkg> registry st
 Registry Status 
  [cbe350a3] ct-registry (https://github.com/control-toolbox/ct-registry)
  [23338594] General (https://github.com/JuliaRegistries/General.git)
 ```
 If the General registry is missing, simply add it
-```
+```shell
 pkg> registry add General
 ```
 then retry the add command for the OptimalControl package.
