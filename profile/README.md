@@ -38,15 +38,14 @@ The [main repositories](https://github.com/orgs/control-toolbox/repositories?typ
 * [`OptimalControl.jl`](https://github.com/control-toolbox/OptimalControl.jl): main package
 
 ```mermaid
-stateDiagram-v2
-          OptimalControl --> CTBase
-          OptimalControl --> CTDirect
-          OptimalControl --> CTFlows
-          OptimalControl --> CTProblems
-          CTProblems --> CTFlows
-          CTProblems --> CTBase
-          CTFlows --> CTBase
-          CTDirect --> CTBase
+flowchart TD
+O(OptimalControl) --> B(CTBase)
+O --> D(CTDirect)
+O --> F(CTFlows)
+P(CTProblems) --> F
+P --> B
+F --> B
+D --> B
 ```
 
 ## Extras and applications
