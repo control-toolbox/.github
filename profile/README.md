@@ -50,8 +50,11 @@ D --> B
 
 ## Extras and applications
 
-* [`bocop`](https://github.com/control-toolbox/bocop): Bocop3, a direct solver for optimal control problem developed in `C++`
-* [Control loss examples](https://github.com/control-toolbox/control-loss)
+* [`bocop`](https://github.com/control-toolbox/bocop): Bocop3, a direct solver for optimal control problem developed in `C++`.
+* [Control loss examples](https://github.com/control-toolbox/control-loss): examples of optimal control problems with permanent and regional controls.
+* [3D visualisation - averaged Kepler](https://github.com/control-toolbox/averaged_kepler): 3D visualisation of an optimal synthesis from the averaged Kepler problem.
+* [Medical Resonance Imaging](https://github.com/control-toolbox/spin): simulations of the bi-saturation problem in MRI.
+* [Zermelo navigation problems](https://github.com/control-toolbox/Zermelo): Kepler, Landau and Lindblad Zermelo problems.
 
 ## Discussions
 
