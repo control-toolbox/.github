@@ -4,7 +4,7 @@ The control-toolbox ecosystem gathers `Julia` packages for mathematical control 
 
 ## Documentation
 
-Please visit our [webpage](http://control-toolbox.org) or go directly to the documentation: [![doc OptimalControl.jl](https://img.shields.io/badge/doc-OptimalControl.jl-blue)](http://control-toolbox.org/docs/optimalcontrol)
+Please visit our [webpage](http://control-toolbox.org) or go directly to the documentation: [![doc OptimalControl.jl](https://img.shields.io/badge/doc-OptimalControl.jl-blue)](http://control-toolbox.org/OptimalControl.jl)
 
 ## Installation
 
@@ -41,10 +41,10 @@ The [main repositories](https://github.com/orgs/control-toolbox/repositories?typ
 
 ```mermaid
 flowchart TD
-O(<a href='https://control-toolbox.org/docs/optimalcontrol/stable/'>OptimalControl</a>) --> B(<a href='https://control-toolbox.org/docs/ctbase/stable/'>CTBase</a>)
-O --> D(<a href='https://control-toolbox.org/docs/ctdirect/stable/'>CTDirect</a>)
-O --> F(<a href='https://control-toolbox.org/docs/ctflows/stable/'>CTFlows</a>)
-P(<a href='https://control-toolbox.org/docs/ctproblems/stable/'>CTProblems</a>) --> F
+O(<a href='https://control-toolbox.org/OptimalControl.jl/stable/'>OptimalControl</a>) --> B(<a href='https://control-toolbox.org/CTBase.jl/stable/'>CTBase</a>)
+O --> D(<a href='https://control-toolbox.org/CTDirect.jl/stable/'>CTDirect</a>)
+O --> F(<a href='https://control-toolbox.org/CTFlows.jl/stable/'>CTFlows</a>)
+P(<a href='https://control-toolbox.org/CTProblems.jl/stable/'>CTProblems</a>) --> F
 P --> B
 F --> B
 D --> B
