@@ -1,28 +1,44 @@
 # Welcome to control-toolbox!
 
-The control-toolbox ecosystem gathers `Julia` packages for mathematical control and applications. The root package is [`OptimalControl.jl`](https://github.com/control-toolbox/OptimalControl.jl) which aims to provide tools to modelise and solve optimal control problems by direct and indirect methods.
+The control-toolbox ecosystem gathers `Julia` packages for mathematical control and applications. 
+
+The root package is [`OptimalControl.jl`](https://github.com/control-toolbox/OptimalControl.jl) which aims to provide tools to modelise and solve optimal control problems by direct and indirect methods.
+
+From the [documentation](http://control-toolbox.org/OptimalControl.jl), you can find tutorials to define and solve optimal control problems with the `OptimalControl.jl` package. 
+
+We provide also some applications of the `OptimalControl.jl` package:
+
+- [Optimal control in Medical Resonance Imaging](https://control-toolbox.org/mri)
+- [Orbit transfer from space mechanics](https://control-toolbox.org/kepler)
 
 ## Documentation
 
-Please visit our [webpage](http://control-toolbox.org) or go directly to the documentation: [![doc OptimalControl.jl](https://img.shields.io/badge/doc-OptimalControl.jl-blue)](http://control-toolbox.org/OptimalControl.jl)
+Please visit our [webpage](http://control-toolbox.org) or go directly to the documentation: 
+
+[![Documentation](https://img.shields.io/badge/Documentation-OptimalControl.jl-blue)](http://control-toolbox.org/OptimalControl.jl)
 
 ## Installation
 
 To install a package from the control-toolbox ecosystem, you must add the `ct-registry` into your `Julia` configuration, and then you can install any package as usual.
 
 ```shell
+julia> ]
 pkg> registry add https://github.com/control-toolbox/ct-registry.git
 pkg> add OptimalControl
 ```
+
 Note: sometimes the above command can fail due to the default Julia registry ('General') not being installed for some reason.
 You can check that both registries are installed with
+
 ```shell
 pkg> registry st
 Registry Status 
  [cbe350a3] ct-registry (https://github.com/control-toolbox/ct-registry)
  [23338594] General (https://github.com/JuliaRegistries/General.git)
 ```
+
 If the General registry is missing, simply add it
+
 ```shell
 pkg> registry add General
 ```
@@ -50,7 +66,7 @@ F --> B
 D --> B
 ```
 
-## Extras and applications
+## Extras
 
 * [`bocop`](https://github.com/control-toolbox/bocop): Bocop3, a direct solver for optimal control problem developed in `C++`.
 * [Control loss examples](https://github.com/control-toolbox/control-loss): examples of optimal control problems with permanent and regional controls.
