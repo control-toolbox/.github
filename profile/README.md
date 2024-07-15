@@ -6,7 +6,7 @@ The root package is [`OptimalControl.jl`](https://github.com/control-toolbox/Opt
 
 From the [documentation](http://control-toolbox.org/OptimalControl.jl), you can find tutorials to define and solve optimal control problems with the `OptimalControl.jl` package. 
 
-We provide also some applications of the `OptimalControl.jl` package:
+See also some applications of the `OptimalControl.jl` package:
 
 - [Optimal control in Medical Resonance Imaging](https://control-toolbox.org/mri)
 - [Orbit transfer from space mechanics](https://control-toolbox.org/kepler)
