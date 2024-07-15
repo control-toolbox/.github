@@ -57,9 +57,9 @@ The [main repositories](https://github.com/orgs/control-toolbox/repositories?typ
 
 ```mermaid
 flowchart TD
-O(<a href='https://control-toolbox.org/OptimalControl.jl/stable/'>OptimalControl</a>) --> B(<a href='https://control-toolbox.org/CTBase.jl/stable/'>CTBase</a>)
-O --> D(<a href='https://control-toolbox.org/CTDirect.jl/stable/'>CTDirect</a>)
-O --> F(<a href='https://control-toolbox.org/CTFlows.jl/stable/'>CTFlows</a>)
+O(<a href='https://control-toolbox.org/OptimalControl.jl/stable/'>OptimalControl</a>) --> B(<a href='https://control-toolbox.org/OptimalControl.jl/stable/api-ctbase.html'>CTBase</a>)
+O --> D(<a href='https://control-toolbox.org/OptimalControl.jl/stable/api-ctdirect.html'>CTDirect</a>)
+O --> F(<a href='https://control-toolbox.org/OptimalControl.jl/stable/api-ctflows.html'>CTFlows</a>)
 P(<a href='https://control-toolbox.org/CTProblems.jl/stable/'>CTProblems</a>) --> F
 P --> B
 F --> B
