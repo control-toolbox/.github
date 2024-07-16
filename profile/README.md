@@ -1,10 +1,15 @@
 # Welcome to control-toolbox!
 
-The control-toolbox ecosystem gathers `Julia` packages for mathematical control and applications. 
+The control-toolbox ecosystem gathers &nbsp;
+<a href="https://julialang.org">
+ <img src="https://raw.githubusercontent.com/JuliaLang/julia-logo-graphics/master/images/julia.ico" width="16em">
+ Julia
+</a> &nbsp; packages for mathematical control and applications. 
 
 The root package is [`OptimalControl.jl`](https://github.com/control-toolbox/OptimalControl.jl) which aims to provide tools to modelise and solve optimal control problems by direct and indirect methods.
 
-From the [documentation](http://control-toolbox.org/OptimalControl.jl), you can find tutorials to define and solve optimal control problems with the `OptimalControl.jl` package. 
+> [!TIP]
+> From the [documentation](http://control-toolbox.org/OptimalControl.jl), you can find tutorials to define and solve optimal control problems with the `OptimalControl.jl` package. 
 
 See also some applications of the `OptimalControl.jl` package:
 
@@ -18,42 +23,42 @@ Please visit our [webpage](http://control-toolbox.org) or go directly to the doc
 
 [![Documentation](https://img.shields.io/badge/Documentation-OptimalControl.jl-blue)](http://control-toolbox.org/OptimalControl.jl)
 
-## Installation
+## Installation [©](https://github.com/JuliaSmoothOptimizers/ADNLPModels.jl?tab=readme-ov-file#installation)
 
-To install a package from the control-toolbox ecosystem, you must add the `ct-registry` into your `Julia` configuration, and then you can install any package as usual.
+To install a package from the control-toolbox ecosystem, it is very simple. To install `OptimalControl.jl` for instance
+please <a href="https://docs.julialang.org/en/v1/manual/getting-started/">open
+Julia's interactive session (known as REPL)</a> and press <kbd>]</kbd> key in the REPL to use the package mode, then add the package:
 
-```shell
+```julia
 julia> ]
-pkg> registry add https://github.com/control-toolbox/ct-registry.git
 pkg> add OptimalControl
 ```
 
-Note: sometimes the above command can fail due to the default Julia registry ('General') not being installed for some reason.
-You can check that both registries are installed with
-
-```shell
-pkg> registry st
-Registry Status 
- [cbe350a3] ct-registry (https://github.com/control-toolbox/ct-registry)
- [23338594] General (https://github.com/JuliaRegistries/General.git)
-```
-
-If the General registry is missing, simply add it
-
-```shell
-pkg> registry add General
-```
-then retry the add command for the OptimalControl package.
+> [!NOTE]
+> Sometimes the above command can fail due to the default Julia registry ('General') not being installed for some reason.
+> You can check that the registry is installed with
+> 
+> ```shell
+> pkg> registry st
+> Registry Status 
+> [23338594] General (https://github.com/JuliaRegistries/General.git)
+> ```
+> 
+> If the General registry is missing, simply add it
+> 
+> ```shell
+> pkg> registry add General
+> ```
+> 
+> then retry the `add` command.
 
 ## Main repositories
 
 The [main repositories](https://github.com/orgs/control-toolbox/repositories?type=all) of the control-toolbox ecosystem are:
 
-* [`ct-registry`](https://github.com/control-toolbox/ct-registry): the control-toolbox registry since the packages are not yet available in the [official registry](https://github.com/JuliaRegistries/General)
 * [`CTBase.jl`](https://github.com/control-toolbox/CTBase.jl): fundamentals of the control-toolbox ecosystem
 * [`CTDirect.jl`](https://github.com/control-toolbox/CTDirect.jl): direct transcription of an optimal control problem and resolution
 * [`CTFlows.jl`](https://github.com/control-toolbox/CTFlows.jl): classical flow, Hamiltonian flow, flow from optimal control problem
-* [`CTProblems.jl`](https://github.com/control-toolbox/CTProblems.jl): library of optimal control problems
 * [`OptimalControl.jl`](https://github.com/control-toolbox/OptimalControl.jl): main package
 
 ```mermaid
@@ -61,8 +66,6 @@ flowchart TD
 O(<a href='https://control-toolbox.org/OptimalControl.jl/stable/'>OptimalControl</a>) --> B(<a href='https://control-toolbox.org/OptimalControl.jl/stable/api-ctbase.html'>CTBase</a>)
 O --> D(<a href='https://control-toolbox.org/OptimalControl.jl/stable/api-ctdirect.html'>CTDirect</a>)
 O --> F(<a href='https://control-toolbox.org/OptimalControl.jl/stable/api-ctflows.html'>CTFlows</a>)
-P(<a href='https://control-toolbox.org/CTProblems.jl/stable/'>CTProblems</a>) --> F
-P --> B
 F --> B
 D --> B
 ```
