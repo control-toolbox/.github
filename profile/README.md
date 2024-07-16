@@ -8,6 +8,7 @@ From the [documentation](http://control-toolbox.org/OptimalControl.jl), you can 
 
 See also some applications of the `OptimalControl.jl` package:
 
+- [Examples from calculus of variations](https://control-toolbox.org/calculus_of_variations)
 - [Optimal control in Medical Resonance Imaging](https://control-toolbox.org/mri)
 - [Orbit transfer from space mechanics](https://control-toolbox.org/kepler)
 
