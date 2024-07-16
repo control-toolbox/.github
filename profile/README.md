@@ -14,7 +14,7 @@ The root package is [`OptimalControl.jl`](https://github.com/control-toolbox/Opt
 See also some applications of the `OptimalControl.jl` package:
 
 - [Examples from calculus of variations](https://control-toolbox.org/calculus_of_variations)
-- [Optimal control in Medical Resonance Imaging](https://control-toolbox.org/mri)
+- [Optimal control in Medical Resonance Imaging](https://control-toolbox.org/medical_resonance_imaging)
 - [Orbit transfer from space mechanics](https://control-toolbox.org/kepler)
 
 ## Documentation
