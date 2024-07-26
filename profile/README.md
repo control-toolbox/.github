@@ -6,27 +6,23 @@ The control-toolbox ecosystem gathers &nbsp;
  Julia
 </a> &nbsp; packages for mathematical control and applications. 
 
-The root package is [`OptimalControl.jl`](https://github.com/control-toolbox/OptimalControl.jl) which aims to provide tools to modelise and solve optimal control problems by direct and indirect methods.
+The root package is [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl) which aims to provide tools to modelise and solve optimal control problems by direct and indirect methods.
 
 > [!TIP]
 > From the [documentation](http://control-toolbox.org/OptimalControl.jl), you can find tutorials to define and solve optimal control problems with the `OptimalControl.jl` package. 
 
-See also some applications of the `OptimalControl.jl` package:
+See also some applications of [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl):
 
 - [Examples from calculus of variations](https://control-toolbox.org/calculus_of_variations)
 - [Optimal control in Medical Resonance Imaging](https://control-toolbox.org/medical_resonance_imaging)
 - [Orbit transfer from space mechanics](https://control-toolbox.org/kepler)
-
-## Documentation
-
-Please visit our [webpage](http://control-toolbox.org) or go directly to the documentation: 
+- ... and more
 
 [![Documentation](https://img.shields.io/badge/Documentation-OptimalControl.jl-blue)](http://control-toolbox.org/OptimalControl.jl)
 
 ## Installation [©](https://github.com/JuliaSmoothOptimizers/ADNLPModels.jl?tab=readme-ov-file#installation)
 
-To install a package from the control-toolbox ecosystem, it is very simple. To install `OptimalControl.jl` for instance
-please <a href="https://docs.julialang.org/en/v1/manual/getting-started/">open
+To install [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl) please <a href="https://docs.julialang.org/en/v1/manual/getting-started/">open
 Julia's interactive session (known as REPL)</a> and press <kbd>]</kbd> key in the REPL to use the package mode, then add the package:
 
 ```julia
@@ -54,12 +50,13 @@ pkg> add OptimalControl
 
 ## Main repositories
 
-The [main repositories](https://github.com/orgs/control-toolbox/repositories?type=all) of the control-toolbox ecosystem are:
+The control-toolbox [hierarchy](https://github.com/orgs/control-toolbox/repositories?type=all) includes:
 
-* [`CTBase.jl`](https://github.com/control-toolbox/CTBase.jl): fundamentals of the control-toolbox ecosystem
-* [`CTDirect.jl`](https://github.com/control-toolbox/CTDirect.jl): direct transcription of an optimal control problem and resolution
-* [`CTFlows.jl`](https://github.com/control-toolbox/CTFlows.jl): classical flow, Hamiltonian flow, flow from optimal control problem
-* [`OptimalControl.jl`](https://github.com/control-toolbox/OptimalControl.jl): main package
+* [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl): main package
+* [CTBase.jl](https://github.com/control-toolbox/CTBase.jl): fundamentals of the control-toolbox ecosystem
+* [CTDirect.jl](https://github.com/control-toolbox/CTDirect.jl): direct transcription of an optimal control problem and resolution
+* [CTFlows.jl](https://github.com/control-toolbox/CTFlows.jl): classical flow, Hamiltonian flow, flow from optimal control problem
+
 
 ```mermaid
 flowchart TD
@@ -72,7 +69,7 @@ D --> B
 
 ## Extras
 
-* [`bocop`](https://github.com/control-toolbox/bocop): Bocop3, a direct solver for optimal control problem developed in `C++`.
+* [bocop](https://github.com/control-toolbox/bocop): Bocop3, a direct solver for optimal control problem developed in `C++`.
 * [Control loss examples](https://github.com/control-toolbox/control-loss): examples of optimal control problems with permanent and regional controls.
 * [3D visualisation - averaged Kepler](https://github.com/control-toolbox/averaged_kepler): 3D visualisation of an optimal synthesis from the averaged Kepler problem.
 * [Medical Resonance Imaging](https://github.com/control-toolbox/spin): simulations of the bi-saturation problem in MRI.
