@@ -9,7 +9,7 @@ The control-toolbox ecosystem gathers &nbsp;
 The root package is [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl) which aims to provide tools to modelise and solve optimal control problems by direct and indirect methods.
 
 > [!TIP]
-> From the [documentation](http://control-toolbox.org/OptimalControl.jl), you can find tutorials to define and solve optimal control problems with the `OptimalControl.jl` package. 
+> From the [documentation](http://control-toolbox.org/OptimalControl.jl), you can find tutorials to define and solve optimal control problems with the OptimalControl.jl package. 
 
 See also some applications of [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl):
 
