@@ -80,6 +80,10 @@ For any package, if you think you found a bug or if you have a feature request o
 Before opening a pull request, start an issue or a discussion on the topic, please.
 If you want to ask a question, feel free to start a [discussion](https://github.com/orgs/control-toolbox/discussions).
 
+## Citing us
+
+If you use the package OptimalControl.jl in your work, please [cite us](https://github.com/control-toolbox/OptimalControl.jl?tab=readme-ov-file#citing-us).
+
 ## Misc
 
 - <img src="https://github.com/control-toolbox/control-toolbox.github.io/blob/main/assets/img/ct-logo.svg" alt="ct logo" width=40> calligraphy by [Alain Hurtig](https://www.alain.les-hurtig.org)
