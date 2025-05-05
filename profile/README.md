@@ -8,17 +8,19 @@ The control-toolbox ecosystem gathers &nbsp;
 
 The root package is [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl) which aims to provide tools to model and solve optimal control problems with ordinary differential equations by direct and indirect methods.
 
-> [!TIP]
-> From the [documentation](http://control-toolbox.org/OptimalControl.jl), you can find tutorials to define and solve optimal control problems with OptimalControl.jl. 
+## Documentation
 
-See also some applications of [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl):
+To learn how to define and solve optimal control problems in Julia, please refer to the documentation of **OptimalControl.jl**:
 
-- [Examples from calculus of variations](https://control-toolbox.org/calculus_of_variations)
-- [Optimal control in Medical Resonance Imaging](https://control-toolbox.org/medical_resonance_imaging)
-- [Orbit transfer from space mechanics](https://control-toolbox.org/kepler)
-- ... and more
+[![Doc](https://img.shields.io/badge/Doc-OptimalControl.jl-blue)](http://control-toolbox.org/OptimalControl.jl)
 
-[![Documentation](https://img.shields.io/badge/Documentation-OptimalControl.jl-blue)](http://control-toolbox.org/OptimalControl.jl)
+The documentation provides:
+
+- step-by-step examples of basic optimal control problems;
+- guides on problem definition, solver initialization, solution plotting, and Hamiltonian flow computation;
+- tutorials on combining direct and indirect methods, and working with discretized problems;
+- real-world applications in calculus of variations, MRI, space mechanics, and more;
+- a collection of benchmark problems, modeled in OptimalControl and JuMP, to test and compare solvers.
 
 ## Installation [©](https://github.com/JuliaSmoothOptimizers/ADNLPModels.jl?tab=readme-ov-file#installation)
 
