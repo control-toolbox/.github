@@ -24,7 +24,7 @@ The documentation provides:
 
 ## Installation [©](https://github.com/JuliaSmoothOptimizers/ADNLPModels.jl?tab=readme-ov-file#installation)
 
-To install [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl) please <a href="https://docs.julialang.org/en/v1/manual/getting-started/">open
+To install **OptimalControl.jl** please <a href="https://docs.julialang.org/en/v1/manual/getting-started/">open
 Julia's interactive session (known as REPL)</a> and press <kbd>]</kbd> key in the REPL to use the package mode, then add the package:
 
 ```julia
