@@ -85,7 +85,7 @@ M --> B
 
 ## Contributing
 
-[issue-url]: https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Acontrol-toolbox+archived%3Afalse+-repo%3Acontrol-toolbox%2Fbocop+
+[issue-url]: https://github.com/issues?q=is%3Aopen%20is%3Aissue%20user%3Acontrol-toolbox%20archived%3Afalse
 [first-good-issue-url]: https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Acontrol-toolbox+archived%3Afalse+-repo%3Acontrol-toolbox%2Fbocop+label%3A"good+first+issue"
 
 Any contributions are welcomed, check out [how to contribute to a Github project](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project). 
