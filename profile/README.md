@@ -52,7 +52,7 @@ pkg> add OptimalControl
 
 ## Main repositories
 
-The control-toolbox [repositories](https://github.com/orgs/control-toolbox/repositories?type=all) includes:
+The control-toolbox [repositories](https://github.com/orgs/control-toolbox/repositories?type=all) include:
 
 * [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl): main package
 * [CTBase.jl](https://github.com/control-toolbox/CTBase.jl): fundamentals of the control-toolbox ecosystem
