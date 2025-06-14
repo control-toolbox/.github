@@ -32,6 +32,9 @@ julia> ]
 pkg> add OptimalControl
 ```
 
+> [!TIP]
+> If you are new to Julia, please follow this [guidelines](https://github.com/orgs/control-toolbox/discussions/64).
+
 > [!NOTE]
 > Sometimes the above command can fail due to the default Julia registry ('General') not being installed for some reason.
 > You can check that the registry is installed with
