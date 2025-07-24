@@ -100,7 +100,7 @@ Before opening a pull request, start an issue or a discussion on the topic, plea
 If you want to ask a question, feel free to start a [discussion](https://github.com/orgs/control-toolbox/discussions).
 
 >[!NOTE]
-> If you want to add an application or a package to the control-toolbox ecosystem, please follow this [set up tutorial](https://github.com/control-toolbox/CTApp.jl/discussions/9).
+> If you want to add an application or a package to the control-toolbox ecosystem, please follow this [set up tutorial](https://github.com/orgs/control-toolbox/discussions/65).
 
 ## Citing us
 
