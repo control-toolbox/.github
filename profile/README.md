@@ -12,7 +12,7 @@ The root package is [OptimalControl.jl](https://github.com/control-toolbox/Optim
 
 To learn how to define and solve optimal control problems in Julia, please refer to the documentation of **OptimalControl.jl**:
 
-[![Doc](https://img.shields.io/badge/Doc-OptimalControl.jl-blue)](http://control-toolbox.org/OptimalControl.jl)
+[![Documentation](https://img.shields.io/badge/Documentation-OptimalControl.jl-blue)](http://control-toolbox.org/OptimalControl.jl)
 
 The documentation provides:
 
