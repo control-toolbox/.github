@@ -55,14 +55,20 @@ pkg> add OptimalControl
 
 ## Main repositories
 
-The control-toolbox [repositories](https://github.com/orgs/control-toolbox/repositories?type=all) include:
+The control-toolbox [repositories](https://github.com/orgs/control-toolbox/repositories?type=all) include the two root packages:
 
-* [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl): main package
+* [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl): the main package to model and solve optimal control problems in Julia, both on CPU and GPU.
+* [OptimalControlProblems.jl](https://github.com/control-toolbox/OptimalControlProblems.jl): a collection of optimal control problems with ODE's in Julia.
+
+It includes also more internal packages:
+
 * [CTBase.jl](https://github.com/control-toolbox/CTBase.jl): fundamentals of the control-toolbox ecosystem
 * [CTDirect.jl](https://github.com/control-toolbox/CTDirect.jl): direct transcription of an optimal control problem and resolution
 * [CTFlows.jl](https://github.com/control-toolbox/CTFlows.jl): classical flow, Hamiltonian flow, flow from optimal control problem
 * [CTModels.jl](https://github.com/control-toolbox/CTModels.jl): models of optimal control problem, solution
 * [CTParser.jl](https://github.com/control-toolbox/CTParser.jl): parser to define an optimal control problem with an abstract syntax
+
+The main package is organised as follows.
 
 ```mermaid
 flowchart TD
