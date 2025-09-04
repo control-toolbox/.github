@@ -1,7 +1,7 @@
 # Welcome to control-toolbox!
 
 The control-toolbox ecosystem gathers <a href="https://julialang.org" style="display:inline-flex; align-items:center;">
-  <img src="https://raw.githubusercontent.com/JuliaLang/julia-logo-graphics/master/images/julia.ico" width="16em" style="margin-right:0.3em; margin-bottom:0.25em;">
+  <img src="https://raw.githubusercontent.com/JuliaLang/julia-logo-graphics/master/images/julia.ico" width="16em" style="margin-right:0.3em;">
   Julia
 </a> packages for mathematical control and applications. 
 
