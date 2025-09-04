@@ -1,10 +1,9 @@
 # Welcome to control-toolbox!
 
-The control-toolbox ecosystem gathers &nbsp;
-<a href="https://julialang.org">
- <img src="https://raw.githubusercontent.com/JuliaLang/julia-logo-graphics/master/images/julia.ico" width="16em">
- Julia
-</a> &nbsp; packages for mathematical control and applications. 
+The control-toolbox ecosystem gathers <a href="https://julialang.org" style="display:inline-flex; align-items:center;">
+  <img src="https://raw.githubusercontent.com/JuliaLang/julia-logo-graphics/master/images/julia.ico" width="16em" style="margin-right:0.3em; margin-bottom:0.25em;">
+  Julia
+</a> packages for mathematical control and applications. 
 
 The root package is [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl) which aims to provide tools to model and solve optimal control problems with ordinary differential equations by direct and indirect methods, both on CPU and GPU.
 
