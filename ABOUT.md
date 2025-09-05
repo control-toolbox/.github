@@ -1,6 +1,6 @@
 ## About control-toolbox
 
-This repository is part of the [control-toolbox ecosystem](https://github.com/control-toolbox). The **control-toolbox** ecosystem brings together <a href="https://julialang.org" style="display:inline-flex; align-items:center;">
+The **control-toolbox** ecosystem brings together <a href="https://julialang.org" style="display:inline-flex; align-items:center;">
   <img src="https://raw.githubusercontent.com/JuliaLang/julia-logo-graphics/master/images/julia.ico" width="16em" style="margin-right:0.3em;">
   Julia
 </a> packages for mathematical control and its applications.  
