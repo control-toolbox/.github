@@ -1,25 +1,38 @@
 # Welcome to control-toolbox!
 
-The control-toolbox ecosystem gathers <a href="https://julialang.org" style="display:inline-flex; align-items:center;">
+The **control-toolbox** ecosystem brings together <a href="https://julialang.org" style="display:inline-flex; align-items:center;">
   <img src="https://raw.githubusercontent.com/JuliaLang/julia-logo-graphics/master/images/julia.ico" width="16em" style="margin-right:0.3em;">
   Julia
-</a> packages for mathematical control and applications. 
+</a> packages for mathematical control and its applications.  
 
-The main package is [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl) which aims to provide tools to model and solve optimal control problems with ordinary differential equations by direct and indirect methods, both on CPU and GPU.
+The core package, [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl), provides tools to model and solve optimal control problems defined by ordinary differential equations. It supports both direct and indirect methods, and can run on CPU or GPU.  
+
+Complementing it, [OptimalControlProblems.jl](https://github.com/control-toolbox/OptimalControlProblems.jl) offers a curated collection of benchmark optimal control problems formulated with ordinary differential equations in Julia. Each problem is available both in the **OptimalControl** DSL and in **JuMP**, with discretised versions ready to be solved using the solver of your choice. This makes the package particularly useful for benchmarking and comparing different solution strategies.  
 
 ## Documentation
 
 To learn how to define and solve optimal control problems in Julia, please refer to the documentation of **OptimalControl.jl**:
 
-[![Documentation](https://img.shields.io/badge/Documentation-OptimalControl.jl-blue)](http://control-toolbox.org/OptimalControl.jl)
+<p align="center">
+  <a href="http://control-toolbox.org/OptimalControl.jl">
+    <img src="https://img.shields.io/badge/Documentation-OptimalControl.jl-blue" alt="Documentation">
+  </a>
+</p>
 
-The documentation provides:
+The documentation includes:
 
-- step-by-step examples of basic optimal control problems;
-- guides on problem definition, solver initialization, solution plotting, and Hamiltonian flow computation;
-- tutorials on combining direct and indirect methods, and working with discretized problems;
-- real-world applications in calculus of variations, MRI, space mechanics, and more;
-- a collection of benchmark problems, modeled in OptimalControl and JuMP, to test and compare solvers.
+- step-by-step examples of optimal control problems;  
+- guides on problem definition, solver initialisation, solution plotting, and Hamiltonian flow;  
+- tutorials on combining direct and indirect methods, and on working with discretised problems;  
+- applications in the calculus of variations, MRI, space mechanics, and more.  
+
+For a collection of benchmark problems that you can discretise and solve with the solver of your choice, see the documentation of **OptimalControlProblems.jl**:
+
+<p align="center">
+  <a href="http://control-toolbox.org/OptimalControlProblems.jl">
+    <img src="https://img.shields.io/badge/Documentation-OptimalControlProblems.jl-blue" alt="Documentation">
+  </a>
+</p>
 
 ## Installation [©](https://github.com/JuliaSmoothOptimizers/ADNLPModels.jl?tab=readme-ov-file#installation)
 
