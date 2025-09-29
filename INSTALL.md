@@ -11,3 +11,6 @@ pkg> add {{PACKAGE}}
 
 > [!TIP]
 > If you are new to Julia, please follow this [guidelines](https://github.com/orgs/control-toolbox/discussions/64).
+
+>[!NOTE]
+>The package requires Julia version 1.10 or later.
