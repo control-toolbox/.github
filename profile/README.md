@@ -80,6 +80,93 @@ It includes also more internal packages:
 * [CTModels.jl](https://github.com/control-toolbox/CTModels.jl): models of optimal control problem, solution
 * [CTParser.jl](https://github.com/control-toolbox/CTParser.jl): parser to define an optimal control problem with an abstract syntax
 
+| **Package**               | **Version**                                  | **CI Status**                        | **Coverage**                               | **Documentation** |
+:---------------------------|:---------------------------------------------|:-------------------------------------|:-------------------------------------------|:------------------|
+| OptimalControl.jl         | [![Version][version-oc-img]][version-oc-url] | [![CI Status][ci-oc-img]][ci-oc-url] | [![Covering Status][co-oc-img]][co-oc-url] | [![Doc stable][doc-oc-stable-img]][doc-oc-stable-url] [![Doc dev][doc-oc-dev-img]][doc-oc-dev-url] |
+| OptimalControlProblems.jl | [![Version][version-op-img]][version-op-url] | [![CI Status][ci-op-img]][ci-op-url] | [![Covering Status][co-op-img]][co-op-url] | [![Doc stable][doc-op-stable-img]][doc-op-stable-url] [![Doc dev][doc-op-dev-img]][doc-op-dev-url] |
+| CTBase.jl                 | [![Version][version-ba-img]][version-ba-url] | [![CI Status][ci-ba-img]][ci-ba-url] | [![Covering Status][co-ba-img]][co-ba-url] | [![Doc stable][doc-ba-stable-img]][doc-ba-stable-url] [![Doc dev][doc-ba-dev-img]][doc-ba-dev-url] |
+| CTDirect.jl               | [![Version][version-di-img]][version-di-url] | [![CI Status][ci-di-img]][ci-di-url] | [![Covering Status][co-di-img]][co-di-url] | [![Doc stable][doc-di-stable-img]][doc-di-stable-url] [![Doc dev][doc-di-dev-img]][doc-di-dev-url] |
+| CTFlows.jl                | [![Version][version-fl-img]][version-fl-url] | [![CI Status][ci-fl-img]][ci-fl-url] | [![Covering Status][co-fl-img]][co-fl-url] | [![Doc stable][doc-fl-stable-img]][doc-fl-stable-url] [![Doc dev][doc-fl-dev-img]][doc-fl-dev-url] |
+| CTModels.jl               | [![Version][version-mo-img]][version-mo-url] | [![CI Status][ci-mo-img]][ci-mo-url] | [![Covering Status][co-mo-img]][co-mo-url] | [![Doc stable][doc-mo-stable-img]][doc-mo-stable-url] [![Doc dev][doc-mo-dev-img]][doc-mo-dev-url] |
+| CTParser.jl               | [![Version][version-pa-img]][version-pa-url] | [![CI Status][ci-pa-img]][ci-pa-url] | [![Covering Status][co-pa-img]][co-pa-url] | [![Doc stable][doc-pa-stable-img]][doc-pa-stable-url] [![Doc dev][doc-pa-dev-img]][doc-pa-dev-url] |
+
+[version-oc-img]: https://juliahub.com/docs/General/OptimalControl/stable/version.svg
+[version-oc-url]: https://juliahub.com/ui/Packages/General/OptimalControl
+[ci-oc-img]: https://github.com/control-toolbox/OptimalControl.jl/actions/workflows/CI.yml/badge.svg?branch=main
+[ci-oc-url]: https://github.com/control-toolbox/OptimalControl.jl/actions/workflows/CI.yml?query=branch%3Amain
+[co-oc-img]: https://codecov.io/gh/control-toolbox/OptimalControl.jl/branch/main/graph/badge.svg
+[co-oc-url]: https://codecov.io/gh/control-toolbox/OptimalControl.jl
+[doc-oc-dev-img]: https://img.shields.io/badge/docs-dev-8A2BE2.svg
+[doc-oc-dev-url]: https://control-toolbox.org/OptimalControl.jl/dev/
+[doc-oc-stable-img]: https://img.shields.io/badge/docs-stable-blue.svg
+[doc-oc-stable-url]: https://control-toolbox.org/OptimalControl.jl/stable/
+
+[version-op-img]: https://juliahub.com/docs/General/OptimalControlProblems/stable/version.svg
+[version-op-url]: https://juliahub.com/ui/Packages/General/OptimalControlProblems
+[ci-op-img]: https://github.com/control-toolbox/OptimalControlProblems.jl/actions/workflows/CI.yml/badge.svg?branch=main
+[ci-op-url]: https://github.com/control-toolbox/OptimalControlProblems.jl/actions/workflows/CI.yml?query=branch%3Amain
+[co-op-img]: https://codecov.io/gh/control-toolbox/OptimalControlProblems.jl/branch/main/graph/badge.svg
+[co-op-url]: https://codecov.io/gh/control-toolbox/OptimalControlProblems.jl
+[doc-op-dev-img]: https://img.shields.io/badge/docs-dev-8A2BE2.svg
+[doc-op-dev-url]: https://control-toolbox.org/OptimalControlProblems.jl/dev/
+[doc-op-stable-img]: https://img.shields.io/badge/docs-stable-blue.svg
+[doc-op-stable-url]: https://control-toolbox.org/OptimalControlProblems.jl/stable/
+
+[version-ba-img]: https://juliahub.com/docs/General/CTBase/stable/version.svg
+[version-ba-url]: https://juliahub.com/ui/Packages/General/CTBase
+[ci-ba-img]: https://github.com/control-toolbox/CTBase.jl/actions/workflows/CI.yml/badge.svg?branch=main
+[ci-ba-url]: https://github.com/control-toolbox/CTBase.jl/actions/workflows/CI.yml?query=branch%3Amain
+[co-ba-img]: https://codecov.io/gh/control-toolbox/CTBase.jl/branch/main/graph/badge.svg
+[co-ba-url]: https://codecov.io/gh/control-toolbox/CTBase.jl
+[doc-ba-dev-img]: https://img.shields.io/badge/docs-dev-8A2BE2.svg
+[doc-ba-dev-url]: https://control-toolbox.org/CTBase.jl/dev/
+[doc-ba-stable-img]: https://img.shields.io/badge/docs-stable-blue.svg
+[doc-ba-stable-url]: https://control-toolbox.org/CTBase.jl/stable/
+
+[version-di-img]: https://juliahub.com/docs/General/CTDirect/stable/version.svg
+[version-di-url]: https://juliahub.com/ui/Packages/General/CTDirect
+[ci-di-img]: https://github.com/control-toolbox/CTDirect.jl/actions/workflows/CI.yml/badge.svg?branch=main
+[ci-di-url]: https://github.com/control-toolbox/CTDirect.jl/actions/workflows/CI.yml?query=branch%3Amain
+[co-di-img]: https://codecov.io/gh/control-toolbox/CTDirect.jl/branch/main/graph/badge.svg
+[co-di-url]: https://codecov.io/gh/control-toolbox/CTDirect.jl
+[doc-di-dev-img]: https://img.shields.io/badge/docs-dev-8A2BE2.svg
+[doc-di-dev-url]: https://control-toolbox.org/CTDirect.jl/dev/
+[doc-di-stable-img]: https://img.shields.io/badge/docs-stable-blue.svg
+[doc-di-stable-url]: https://control-toolbox.org/CTDirect.jl/stable/
+
+[version-fl-img]: https://juliahub.com/docs/General/CTFlows/stable/version.svg
+[version-fl-url]: https://juliahub.com/ui/Packages/General/CTFlows
+[ci-fl-img]: https://github.com/control-toolbox/CTFlows.jl/actions/workflows/CI.yml/badge.svg?branch=main
+[ci-fl-url]: https://github.com/control-toolbox/CTFlows.jl/actions/workflows/CI.yml?query=branch%3Amain
+[co-fl-img]: https://codecov.io/gh/control-toolbox/CTFlows.jl/branch/main/graph/badge.svg
+[co-fl-url]: https://codecov.io/gh/control-toolbox/CTFlows.jl
+[doc-fl-dev-img]: https://img.shields.io/badge/docs-dev-8A2BE2.svg
+[doc-fl-dev-url]: https://control-toolbox.org/CTFlows.jl/dev/
+[doc-fl-stable-img]: https://img.shields.io/badge/docs-stable-blue.svg
+[doc-fl-stable-url]: https://control-toolbox.org/CTFlows.jl/stable/
+
+[version-mo-img]: https://juliahub.com/docs/General/CTModels/stable/version.svg
+[version-mo-url]: https://juliahub.com/ui/Packages/General/CTModels
+[ci-mo-img]: https://github.com/control-toolbox/CTModels.jl/actions/workflows/CI.yml/badge.svg?branch=main
+[ci-mo-url]: https://github.com/control-toolbox/CTModels.jl/actions/workflows/CI.yml?query=branch%3Amain
+[co-mo-img]: https://codecov.io/gh/control-toolbox/CTModels.jl/branch/main/graph/badge.svg
+[co-mo-url]: https://codecov.io/gh/control-toolbox/CTModels.jl
+[doc-mo-dev-img]: https://img.shields.io/badge/docs-dev-8A2BE2.svg
+[doc-mo-dev-url]: https://control-toolbox.org/CTModels.jl/dev/
+[doc-mo-stable-img]: https://img.shields.io/badge/docs-stable-blue.svg
+[doc-mo-stable-url]: https://control-toolbox.org/CTModels.jl/stable/
+
+[version-pa-img]: https://juliahub.com/docs/General/CTParser/stable/version.svg
+[version-pa-url]: https://juliahub.com/ui/Packages/General/CTParser
+[ci-pa-img]: https://github.com/control-toolbox/CTParser.jl/actions/workflows/CI.yml/badge.svg?branch=main
+[ci-pa-url]: https://github.com/control-toolbox/CTParser.jl/actions/workflows/CI.yml?query=branch%3Amain
+[co-pa-img]: https://codecov.io/gh/control-toolbox/CTParser.jl/branch/main/graph/badge.svg
+[co-pa-url]: https://codecov.io/gh/control-toolbox/CTParser.jl
+[doc-pa-dev-img]: https://img.shields.io/badge/docs-dev-8A2BE2.svg
+[doc-pa-dev-url]: https://control-toolbox.org/CTParser.jl/dev/
+[doc-pa-stable-img]: https://img.shields.io/badge/docs-stable-blue.svg
+[doc-pa-stable-url]: https://control-toolbox.org/CTParser.jl/stable/
+
 The main package is organised as follows.
 
 ```mermaid
