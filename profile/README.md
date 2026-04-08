@@ -9,6 +9,10 @@ The core package, [OptimalControl.jl](https://github.com/control-toolbox/Optimal
 
 Complementing it, [OptimalControlProblems.jl](https://github.com/control-toolbox/OptimalControlProblems.jl) offers a curated collection of benchmark optimal control problems formulated with ordinary differential equations in Julia. Each problem is available both in the **OptimalControl** DSL and in **JuMP**, with discretised versions ready to be solved using the solver of your choice. This makes the package particularly useful for benchmarking and comparing different solution strategies.  
 
+## 🎉 Version 2.0 is out!
+
+We're excited to announce the release of **OptimalControl.jl v2.0**, featuring a completely redesigned architecture for improved performance, flexibility, and extensibility. [Try it now](https://control-toolbox.org/OptimalControl.jl/stable/) and explore the new capabilities!
+
 ## Documentation
 
 To learn how to define and solve optimal control problems in Julia, please refer to the documentation of **OptimalControl.jl**:
