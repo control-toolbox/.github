@@ -79,6 +79,7 @@ It includes also more internal packages:
 * [CTFlows.jl](https://github.com/control-toolbox/CTFlows.jl): classical flow, Hamiltonian flow, flow from optimal control problem
 * [CTModels.jl](https://github.com/control-toolbox/CTModels.jl): models of optimal control problem, solution
 * [CTParser.jl](https://github.com/control-toolbox/CTParser.jl): parser to define an optimal control problem with an abstract syntax
+* [CTSolvers.jl](https://github.com/control-toolbox/CTSolvers.jl): solvers for the control-toolbox ecosystem
 
 | **Package**               | **Version**                                  | **CI Status**                        | **Coverage**                               | **Documentation** |
 :---------------------------|:---------------------------------------------|:-------------------------------------|:-------------------------------------------|:------------------|
@@ -89,6 +90,7 @@ It includes also more internal packages:
 | CTFlows.jl                | [![Version][version-fl-img]][version-fl-url] | [![CI Status][ci-fl-img]][ci-fl-url] | [![Covering Status][co-fl-img]][co-fl-url] | [![Doc stable][doc-fl-stable-img]][doc-fl-stable-url] [![Doc dev][doc-fl-dev-img]][doc-fl-dev-url] |
 | CTModels.jl               | [![Version][version-mo-img]][version-mo-url] | [![CI Status][ci-mo-img]][ci-mo-url] | [![Covering Status][co-mo-img]][co-mo-url] | [![Doc stable][doc-mo-stable-img]][doc-mo-stable-url] [![Doc dev][doc-mo-dev-img]][doc-mo-dev-url] |
 | CTParser.jl               | [![Version][version-pa-img]][version-pa-url] | [![CI Status][ci-pa-img]][ci-pa-url] | [![Covering Status][co-pa-img]][co-pa-url] | [![Doc stable][doc-pa-stable-img]][doc-pa-stable-url] [![Doc dev][doc-pa-dev-img]][doc-pa-dev-url] |
+| CTSolvers.jl              | [![Version][version-so-img]][version-so-url] | [![CI Status][ci-so-img]][ci-so-url] | [![Covering Status][co-so-img]][co-so-url] | [![Doc stable][doc-so-stable-img]][doc-so-stable-url] [![Doc dev][doc-so-dev-img]][doc-so-dev-url] |
 
 [version-oc-img]: https://juliahub.com/docs/General/OptimalControl/stable/version.svg
 [version-oc-url]: https://juliahub.com/ui/Packages/General/OptimalControl
@@ -167,29 +169,16 @@ It includes also more internal packages:
 [doc-pa-stable-img]: https://img.shields.io/badge/docs-stable-blue.svg
 [doc-pa-stable-url]: https://control-toolbox.org/CTParser.jl/stable/
 
-The main package is organised as follows.
-
-```mermaid
-flowchart TD
-B(<a href='https://control-toolbox.org/OptimalControl.jl/stable/api-ctbase.html'>CTBase</a>)
-M(<a href='https://control-toolbox.org/OptimalControl.jl/stable/api-ctmodels.html'>CTModels</a>)
-P(<a href='https://control-toolbox.org/OptimalControl.jl/stable/api-ctparser.html'>CTParser</a>)
-O(<a href='https://control-toolbox.org/OptimalControl.jl/stable/api-optimalcontrol-dev.html'>OptimalControl</a>)
-D(<a href='https://control-toolbox.org/OptimalControl.jl/stable/api-ctdirect.html'>CTDirect</a>)
-F(<a href='https://control-toolbox.org/OptimalControl.jl/stable/api-ctflows.html'>CTFlows</a>)
-O --> D
-O --> M
-O --> F
-O --> P
-F --> M
-O --> B
-F --> B
-D --> B
-D --> M
-P --> M
-P --> B
-M --> B
-```
+[version-so-img]: https://juliahub.com/docs/General/CTSolvers/stable/version.svg
+[version-so-url]: https://juliahub.com/ui/Packages/General/CTSolvers
+[ci-so-img]: https://github.com/control-toolbox/CTSolvers.jl/actions/workflows/CI.yml/badge.svg?branch=main
+[ci-so-url]: https://github.com/control-toolbox/CTSolvers.jl/actions/workflows/CI.yml?query=branch%3Amain
+[co-so-img]: https://codecov.io/gh/control-toolbox/CTSolvers.jl/branch/main/graph/badge.svg
+[co-so-url]: https://codecov.io/gh/control-toolbox/CTSolvers.jl
+[doc-so-dev-img]: https://img.shields.io/badge/docs-dev-8A2BE2.svg
+[doc-so-dev-url]: https://control-toolbox.org/CTSolvers.jl/dev/
+[doc-so-stable-img]: https://img.shields.io/badge/docs-stable-blue.svg
+[doc-so-stable-url]: https://control-toolbox.org/CTSolvers.jl/stable/
 
 ## Contributing
 
