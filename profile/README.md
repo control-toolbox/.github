@@ -206,6 +206,6 @@ If you use the package OptimalControl.jl in your work, please [cite us](https://
 
 ## Misc
 
-- <img src="https://github.com/control-toolbox/control-toolbox.github.io/blob/main/assets/img/ct-logo.svg" alt="ct logo" width=40> calligraphy by [Alain Hurtig](https://www.alain.les-hurtig.org)
+- <picture><source srcset="https://github.com/control-toolbox/control-toolbox.github.io/blob/main/assets/img/ct-logo-white.svg" media="(prefers-color-scheme: dark)"><img src="https://github.com/control-toolbox/control-toolbox.github.io/blob/main/assets/img/ct-logo.svg" alt="ct logo" width=40></picture> calligraphy by [Alain Hurtig](https://www.alain.les-hurtig.org)
 - [bocop](https://github.com/control-toolbox/bocop): Bocop3, a direct solver for optimal control problem developed in `C++`
 - [control-toolbox wiki](https://github.com/control-toolbox/control-toolbox.github.io/wiki)
