@@ -11,9 +11,7 @@ labels: release
 - [ ] `CHANGELOG.md` / `BREAKING.md` up to date
 - [ ] CI, documentation and breakage checks are green
 - [ ] Release branch merged
-- [ ] GitHub release created
-- [ ] Comment below posted (with the release's "What's Changed")
-- [ ] Tag created by TagBot
+- [ ] GitHub release and tag created
 
 ## Comment to post
 
