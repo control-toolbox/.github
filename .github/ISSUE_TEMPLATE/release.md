@@ -5,6 +5,8 @@ title: "[RELEASE] v"
 labels: release
 ---
 
+<!-- Never write the Registrator mention in this description: the mention alone, anywhere in the issue, starts a registration. -->
+
 ## Checklist
 
 - [ ] Version bumped in `Project.toml`
@@ -13,12 +15,8 @@ labels: release
 - [ ] Release branch merged
 - [ ] GitHub release and tag created
 
-## Comment to post
+## Registration
 
-```text
-@JuliaRegistrator register
+**Stable release** (General registry): once every box above is ticked, post **one** comment that starts with the JuliaRegistrator trigger (`register`, preceded by the mention of the bot), followed by `Release notes:` and the "What's Changed" of the GitHub release. Post it once: the mention starts a registration wherever it appears, in this description or in any comment.
 
-Release notes:
-
-<paste the "What's Changed" of the GitHub release here>
-```
+**Beta release** (`ct-registry`): no comment here; register with `LocalRegistry`, see [RELEASING.md](https://github.com/control-toolbox/ct-registry/blob/main/RELEASING.md).
