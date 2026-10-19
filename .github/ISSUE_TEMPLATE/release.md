@@ -19,4 +19,4 @@ labels: release
 
 **Stable release** (General registry): once every box above is ticked, post **one** comment that starts with the JuliaRegistrator trigger (`register`, preceded by the mention of the bot), followed by `Release notes:` and the "What's Changed" of the GitHub release. Post it once: the mention starts a registration wherever it appears, in this description or in any comment.
 
-**Beta release** (`ct-registry`): no comment here; register with `LocalRegistry`, see [RELEASING.md](https://github.com/control-toolbox/ct-registry/blob/main/RELEASING.md).
+**Beta release** (`ct-registry`): no comment here; register with `LocalRegistry`, see [RELEASING.md](https://github.com/control-toolbox/ct-registry/blob/HEAD/RELEASING.md).
